@@ -15,13 +15,13 @@ public class Perkalian_8 {
         System.out.println("Tugas Struktur Data Membuat Perkalian 8 Menggunakan Looping");
         System.out.println("Dengan for");
         int hslfor = 0,hslwhile = 0,hsldo = 0,awal1 = 0,awal2 = 0;
-        for (int i=1;i<9;i++){
+        for (int i=1;i<11;i++){
             hslfor = i*8;
             System.out.println(i + " x 8 = " + hslfor);
         }
         System.out.println(" ");
         System.out.println("Dengan While");
-        while (awal1 < 8){
+        while (awal1 < 10){
             awal1 = awal1 + 1;
             hslwhile = awal1 * 8;
             System.out.println(awal1 + " x 8 = " + hslwhile);   
@@ -32,7 +32,7 @@ public class Perkalian_8 {
             awal2++;
             hsldo = awal2*8;
             System.out.println(awal2 + " x 8 = " + hsldo);
-        }while (awal2 < 8);
+        }while (awal2 < 10);
         
 }
 }
