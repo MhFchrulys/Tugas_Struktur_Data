@@ -20,7 +20,7 @@ public class Max_Min {
         for (int i=0;i<jml;i++){
             System.out.print("Masukkan Array isi " + (i+1) + " = ");
             x[i] = sc.nextInt();
-                if(x[i]==-1){
+                if(x[i]==-1 || x[i]==100){
                   jml = -1;
                   stop = i;   
             }
